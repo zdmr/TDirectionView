@@ -1,0 +1,7 @@
+
+platform :ios, '8.0'
+
+target 'TDirectionView_Example' do
+  pod 'TDirectionView', :path => '../'
+
+end
