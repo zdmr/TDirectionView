@@ -13,5 +13,6 @@
 @property (nonatomic, strong) IBInspectable UIColor *lineColor;
 @property (nonatomic, assign) CGFloat lineHeight;
 @property (nonatomic, assign) NSInteger numberOfPoints;
+@property (nonatomic, strong) IBInspectable UIColor *middlePointColor;
 
 @end

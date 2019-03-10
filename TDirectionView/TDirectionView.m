@@ -24,6 +24,11 @@
     [self setNeedsDisplay];
 }
 
+- (void)setMiddlePointColor:(UIColor *)middlePointColor {
+    _middlePointColor = middlePointColor;
+    [self setNeedsDisplay];
+}
+
 - (void)drawRect:(CGRect)rect {
     
     CGFloat width = CGRectGetWidth(rect);
@@ -60,9 +65,10 @@
             CGContextFillPath(context);
         } else {
             
-            CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
+            CGContextSetFillColorWithColor(context, _middlePointColor.CGColor);
             CGContextFillPath(context);
             
+            CGContextSetFillColorWithColor(context, _lineColor.CGColor);
             CGContextSetLineWidth(context, 1);
             CGRect circle = CGRectInset(rectangle, 1, 1);
             CGContextAddEllipseInRect(context, circle);
@@ -80,13 +86,13 @@
 - (void)commonInit {
     
     if (self.backgroundColor && ![self.backgroundColor isEqual:[UIColor clearColor]]) {
-        _lineColor = self.backgroundColor;
-        self.backgroundColor = [UIColor clearColor];
+        _lineColor = _lineColor?: self.backgroundColor;
     }
+    _middlePointColor = _middlePointColor?: [UIColor whiteColor];
     _lineHeight = 2;
     _numberOfPoints = MAX(_numberOfPoints, 2);
     [self setContentMode:UIViewContentModeRedraw];
-
+    self.backgroundColor = [UIColor clearColor];
 }
 
 - (void)awakeFromNib {

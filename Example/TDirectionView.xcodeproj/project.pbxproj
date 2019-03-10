@@ -39,10 +39,7 @@
 /* Begin PBXFileReference section */
 		1932D49D2B8B86F172A64875 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1CE6A15640FDDBE5CB4E512A /* TdirectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TdirectionView.podspec; path = ../TdirectionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		22E56471DC30DFDE4C859103 /* Pods_SimpleSteppedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleSteppedView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE557615E0F354A5E296841 /* Pods-TDirectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDirectionView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDirectionView_Example/Pods-TDirectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2F7076D1EDDA15072C04E0A5 /* Pods-SimpleSteppedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSteppedView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSteppedView_Example/Pods-SimpleSteppedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4B2AD936CC53963DE72B8EC3 /* Pods-SimpleSteppedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSteppedView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSteppedView_Example/Pods-SimpleSteppedView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TDirectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDirectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +51,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6F9CC3F8CAF7BE42EF2DCBAE /* Pods-TDirectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDirectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDirectionView_Example/Pods-TDirectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB7142632233D1E200155928 /* SimpleSteppedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleSteppedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC462A22350BDC008AA8E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBDC462B22350BDC008AA8E2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBDC462C22350BDC008AA8E2 /* TDirectionView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TDirectionView-Info.plist"; sourceTree = "<group>"; };
@@ -68,7 +64,6 @@
 		BBDC463622350BDC008AA8E2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CCC1E3FA7B2400E8CC1B2469 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CE77B26162624FEBFDC85AD7 /* libPods-TDirectionView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDirectionView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC07B832876477FB34590832 /* libPods-SimpleSteppedView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleSteppedView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +115,10 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB7142632233D1E200155928 /* SimpleSteppedView.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				22E56471DC30DFDE4C859103 /* Pods_SimpleSteppedView_Tests.framework */,
-				DC07B832876477FB34590832 /* libPods-SimpleSteppedView_Example.a */,
 				CE77B26162624FEBFDC85AD7 /* libPods-TDirectionView_Example.a */,
 			);
 			name = Frameworks;
@@ -161,20 +153,28 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		BBDC462822350BDC008AA8E2 /* TDirectionView */ = {
+		BB33446E22354D600037EFC0 /* SpportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				BBDC462922350BDC008AA8E2 /* InfoPlist.strings */,
-				BBDC462B22350BDC008AA8E2 /* AppDelegate.h */,
-				BBDC463422350BDC008AA8E2 /* AppDelegate.m */,
-				BBDC462C22350BDC008AA8E2 /* TDirectionView-Info.plist */,
-				BBDC462D22350BDC008AA8E2 /* ViewController.m */,
-				BBDC462E22350BDC008AA8E2 /* LaunchScreen.storyboard */,
-				BBDC463022350BDC008AA8E2 /* Main.storyboard */,
 				BBDC463222350BDC008AA8E2 /* main.m */,
 				BBDC463322350BDC008AA8E2 /* Images.xcassets */,
 				BBDC463522350BDC008AA8E2 /* TDirectionView-Prefix.pch */,
+				BBDC462C22350BDC008AA8E2 /* TDirectionView-Info.plist */,
+				BBDC462922350BDC008AA8E2 /* InfoPlist.strings */,
+			);
+			name = SpportingFiles;
+			sourceTree = "<group>";
+		};
+		BBDC462822350BDC008AA8E2 /* TDirectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC462B22350BDC008AA8E2 /* AppDelegate.h */,
+				BBDC463422350BDC008AA8E2 /* AppDelegate.m */,
 				BBDC463622350BDC008AA8E2 /* ViewController.h */,
+				BBDC462D22350BDC008AA8E2 /* ViewController.m */,
+				BBDC462E22350BDC008AA8E2 /* LaunchScreen.storyboard */,
+				BBDC463022350BDC008AA8E2 /* Main.storyboard */,
+				BB33446E22354D600037EFC0 /* SpportingFiles */,
 			);
 			path = TDirectionView;
 			sourceTree = "<group>";
@@ -182,8 +182,6 @@
 		C6C441102554DBF1E20B4155 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F7076D1EDDA15072C04E0A5 /* Pods-SimpleSteppedView_Example.debug.xcconfig */,
-				4B2AD936CC53963DE72B8EC3 /* Pods-SimpleSteppedView_Example.release.xcconfig */,
 				6F9CC3F8CAF7BE42EF2DCBAE /* Pods-TDirectionView_Example.debug.xcconfig */,
 				2EE557615E0F354A5E296841 /* Pods-TDirectionView_Example.release.xcconfig */,
 			);

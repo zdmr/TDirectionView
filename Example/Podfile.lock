@@ -1,5 +1,5 @@
 PODS:
-  - TDirectionView (0.1.0)
+  - TDirectionView (0.1.1)
 
 DEPENDENCIES:
   - TDirectionView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TDirectionView: 8c79beb3fa584512a991fbd890883a44374d9eb1
+  TDirectionView: f51b9e3f63065750c762c9064167aedd3a8809e8
 
 PODFILE CHECKSUM: faab3874f27de23f3487598b5076d9662a9044e2
 
