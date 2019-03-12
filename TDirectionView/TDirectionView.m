@@ -89,9 +89,13 @@
         _lineColor = _lineColor?: self.backgroundColor;
     }
     _middlePointColor = _middlePointColor?: [UIColor whiteColor];
-    _lineHeight = 2;
+    
+    _lineHeight = _lineHeight > 0 ? _lineHeight : 2;
+    
     _numberOfPoints = MAX(_numberOfPoints, 2);
+    
     [self setContentMode:UIViewContentModeRedraw];
+    
     self.backgroundColor = [UIColor clearColor];
 }
 
